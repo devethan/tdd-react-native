@@ -6,10 +6,11 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest ./__tests__/*-test.js",
+    "test": "jest ./__tests__/AddToDo-test.js",
     "lint": "eslint ."
   },
   "dependencies": {
+    "@types/jest": "^24.0.18",
     "react": "16.9.0",
     "react-native": "0.61.1"
   },

@@ -1,8 +1,7 @@
 import React from 'react';
 import {View, Text} from 'react-native';
-
-const AddToDo = () => null;
-const ToDoList = () => null;
+import AddToDo from './components/AddToDo';
+import ToDoList from './components/ToDoList';
 
 const App = () => {
   return (
