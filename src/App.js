@@ -1,10 +1,17 @@
-import React from 'react'
-import { Text } from 'react-native'
+import React from 'react';
+import {View, Text} from 'react-native';
+
+const AddToDo = () => null;
+const ToDoList = () => null;
 
 const App = () => {
   return (
-    <Text>ToDo TDD</Text>
-  )
-}
+    <View>
+      <Text>ToDo TDD</Text>
+      <AddToDo />
+      <ToDoList />
+    </View>
+  );
+};
 
-export default App
+export default App;
