@@ -1,8 +1,8 @@
 import React from 'react';
-import {} from 'react-native';
+import { FlatList } from 'react-native';
 
-const ToDoList = () => {
-  return null;
+const ToDoList = ({items}) => {
+  return <FlatList data={items}></FlatList>;
 };
 
 export default ToDoList;
